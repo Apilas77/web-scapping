@@ -1,19 +1,14 @@
 # Cultura Scraping
 
 ## Sujet
-Parcourir les promotions du site [Cultura](https://www.cultura.com/boutiques/des-prix-des-promos.html).
+Parcourir les indispensables à petits prix [IKEA](https://www.ikea.com/fr/fr/campaigns/les-indispensables-a-petits-prix-pub0d9cd6c0?icid=fr|20210315|menu|indispensables).
 
-Pour chaque promotion de la page :
-- Cliquer sur le lien de la promotion
+Pour chaque `indispensables` de la page :
+- Cliquer sur le lien
 - Récupération des éléments *(maximum 100)*
     - Nom
-    - Marque
+    - Description
     - Note *(si existante)*
-    - Stock
-    - Prix avant promotion *(si existe)*
-    - Prix après promotion
-- Retour à la page des promotions pour le prochain lien
-
-Remarque : 
-- Présence d'un scroll infini
-- Parfois la présence d'un bouton `Voir toutes les promotions`
+    - Prix
+    - Nombre d'avis
+- Retour à la page des `indispensables` pour le prochain lien
