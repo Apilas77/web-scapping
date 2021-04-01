@@ -12,3 +12,12 @@ Pour chaque `indispensables` de la page :
     - Prix
     - Nombre d'avis
 - Retour à la page des `indispensables` pour le prochain lien
+
+## Installation
+!pip install seaborn
+
+Avec Anaconda : ouvrir anaconda prompt et executer : "conda install -c conda-forge selenium" \
+Avec le gestionnaire de package pip:  pip install selenium
+
+Télécharger webdriver: https://chromedriver.chromium.org/downloads . \ 
+Rangez-le dans un dossier et rajoutez le path du fichier chromedriver.exe dans vos variables d'environnement système (puis redémarrer).
