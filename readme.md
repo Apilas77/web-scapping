@@ -21,3 +21,6 @@ Avec le gestionnaire de package pip:  pip install selenium
 
 Télécharger webdriver: https://chromedriver.chromium.org/downloads . \ 
 Rangez-le dans un dossier et rajoutez le path du fichier chromedriver.exe dans vos variables d'environnement système (puis redémarrer).
+
+## Pour l'affichage et la visualisation:
+- [Pyplot](https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html) , [Seaborn](https://seaborn.pydata.org/introduction.html) *PANDAS*
